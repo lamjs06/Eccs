@@ -1,0 +1,204 @@
+body{
+    background: linear-gradient(#479A4A,#85E089); 
+    background-size:cover;
+    background-attachment:fixed;
+
+}
+
+.logo{
+    /* 英文书院华文学会 */
+font-family: 'ZCOOL KuaiLe';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+color: #FFFFFF;
+}
+
+.logo2{
+    /* EC Chinese Society */
+position: absolute;
+width: 801px;
+height: 152px;
+
+font-family: 'Branch';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 46px;
+
+color: #FFFFFF;
+
+}
+  
+.logobg{
+/* MSAB-removebg-preview 1 */
+position: absolute;
+width: 80px;
+height: 80px;
+margin-left: 150px;
+margin-top: 20px;
+
+}
+
+.whitebg{
+    /*白色半圆背景*/
+position: absolute;
+margin-left: 150px;
+margin-top: 100px;
+width: 1304px
+
+}
+
+.updot{
+    /*logo下的白点*/
+position: absolute;
+margin-left: 1000px;
+margin-top: 30px;
+width: 150px;
+height: 135px;
+
+}
+
+.Title{
+    /* ECCS */
+
+display: flex;
+position: absolute;
+width: 295px;
+height: 123px;
+margin-left: 250px;
+margin-top: 145px;
+
+font-family: 'Nueva';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 65px;
+
+color: #000000;
+}
+
+.welcome-text{
+    /* welcome visit our website */
+position: absolute;
+width: 524px;
+height: 20px;
+margin-left: 400px;
+margin-top: 320px;
+
+font-family: 'Nueva';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+
+color: #479A4A;
+}
+
+.Gline{
+    /*welcome前面的青色线*/
+    position: relative;
+    z-index: 2;
+    width: 70px;
+    height: 1px ;
+    margin-top:331px; 
+    margin-left:305px;
+
+}
+
+button {
+    /*email 按钮*/
+    position: relative;
+    z-index: 2;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   button:hover {
+    letter-spacing: 2px;
+    background-color: #479A4A;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #479A4A 0px 7px 29px 0px;
+   }
+   
+   button:active {
+    letter-spacing: 3px;
+    background-color: #479A4A;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #479A4A 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+   .whole-button button {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left:350px !important;
+    
+  }
+  
+  .whole-button button span {
+    margin-top: 5px; 
+    margin-left: 10px;
+  }
+  
+   .whole-button img{
+    width: 22.66px;
+    height: 24px;
+   }
+
+   .whole-button2 button {
+    height: 30px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    margin-left:30px !important;
+    
+  }
+  
+  .whole-button2 button span {
+    margin-top: 5px; 
+    margin-left: 10px;
+  }
+  
+   .whole-button2 img{
+    width: 22.66px;
+    height: 24px;
+   }
+   
+   .button-mail{
+    /* msabeccs@gmail .com */
+    width: 619px;
+    height: 53px;
+
+font-family: 'Nueva';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+color: #000000;
+   }
+
+   .Mainmenu{
+    /*主页*/
+    margin-left:40px;
+    margin-top: 10px;
+    }
+
+    .info{
+    /*咨询*/
+    margin-left:40px;
+        }
+    
+    .summit{
+    /*投稿*/
+    margin-left:40px;
+    }
