@@ -45,9 +45,12 @@ margin-top: 20px;
 position: absolute;
 margin-left: 150px;
 margin-top: 100px;
-width: 1304px
+right: 0;
+max-width: 90%;
+object-fit: cover;
 
 }
+
 
 .updot{
     /*logo下的白点*/
@@ -191,14 +194,39 @@ color: #000000;
     /*主页*/
     margin-left:40px;
     margin-top: 10px;
-    }
 
+    }
+    
     .info{
     /*咨询*/
     margin-left:40px;
-        }
+    }
     
     .summit{
     /*投稿*/
     margin-left:40px;
+    }
+
+    .category{
+    transition: 200ms;
+    }
+    .category:hover{
+    margin-left:30px;
+    transition: 200ms;
+    }
+
+    .ig:hover{
+        transform: scale(1.1);
+    }
+    .yt:hover{
+        transform: scale(1.1);
+    }
+
+    .longlogo{
+        position:absolute;
+        z-index: 2;
+        width: 500px;
+        height:250px;
+        margin-left:300px;
+        margin-top: 400px;
     }
