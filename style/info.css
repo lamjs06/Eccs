@@ -1,0 +1,49 @@
+body{
+    background-color: #99CBD2;
+    background-size:cover;
+    background-attachment:fixed;
+
+}
+
+
+.rickroll{
+    font-family: 'Nueva';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.home{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+}
+.gengduo{
+    font-family: 'ZCool KuaiLe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+}
+.arrow{
+    position: relative;
+    z-index: 2;
+
+}
+
+.acti{
+    font-family: 'ZCool KuaiLe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.infotitleBC{
+    margin-top:-160px;
+    margin-left:900px;
+
+}
